@@ -8,7 +8,7 @@ public class TestDoWhile {
 			int value = 0, sum = 0;
 			Scanner in = new Scanner(System.in);
 			
-			do {
+			do {	// while(내용) 내용이 입력되기 전까지 무한 반복 
 				System.out.print("정수 숫자를 입력하세요 (종료는 : 99) : ");
 				value = in.nextInt();
 				sum += value;

@@ -16,6 +16,7 @@ public class TestArrayInit {
 
 		String destArr[];		// 배열의 주소 복사용 배열래퍼런스 선언
 		
+		// 참조변수에 기존 배열의 주소를 복사(얕은 복사)
 		destArr = strArr;	// 주소 복사
 		
 		for(int i= 0; i < 3; i++) {
@@ -23,7 +24,7 @@ public class TestArrayInit {
 		}
 		System.out.println("---------------------------");
 			strArr[1] = "Pineapple";	// 원본 배열 2번째 인덱스의 값 수정
-
+		
 		for(int i= 0; i < 3; i++) {
 			System.out.println(strArr[i] + " : " + destArr[i]);
 		}

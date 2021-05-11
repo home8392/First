@@ -16,7 +16,7 @@ public class TestTwoDimensionalArray {
 			// 1행		4		5		6
 		}
 		
-		// 2차원 가변배열 초기화
+		// 2차원 가변배열 초기화	
 		int[][] score1 = new int[3][];
 		
 		score1[0] = new int[4];

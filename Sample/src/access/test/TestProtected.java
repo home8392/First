@@ -13,5 +13,4 @@ public class TestProtected {
 		child.insert();
 		child.out();
 	}
-
 }

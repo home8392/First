@@ -17,11 +17,17 @@ public class Point {		// 클래스 헤더
 	public void setPosY(int posY) {
 		this.posY = posY;
 	}
+	public void out() {
+		System.out.println("[" + posX + ", " + posY + "]");
+	}
 	
 	// 생성자
-	public Point() {}
+	public Point() {
+		this(10, 20);
+	}
 	public Point(int posX, int posY) {
 		this.posX = posX;
 		this.posY = posY;		
 	}
+	
 }

@@ -1,5 +1,5 @@
 // 폴더(패키지) 이름
-package Test;
+package test;
 
 // 파일(.java) 이름
 public class Helloworld {
